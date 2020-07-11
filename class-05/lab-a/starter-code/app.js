@@ -79,9 +79,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testArray = [2, 3, 4]; //eslint-disable-line
 
-function sumArray(sumArr) { //eslint-disable-line
-
+function sumArray(testArray) { //eslint-disable-line 
+for(var i = 0;i < testArray.length; i++)
+    sumArray= (i+testArray[i]);
+var returnArray = [sumArray+'this is the output or adding the First number of the array to the same array elements'+sumArray];
+return returnArray;
 }
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
