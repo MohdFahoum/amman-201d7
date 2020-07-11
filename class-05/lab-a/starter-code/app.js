@@ -56,7 +56,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var c = 2;
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-var sumAndMultiply = a+b*c ;
+var sumAndMultiply = (a+b)*c ;
 var returnArray = [sumAndMultiply +'the sumAndMultiply of '+a+ 'and '+b+ 'and '+c+'is '+sumAndMultiply]
 return returnArray;
 }
