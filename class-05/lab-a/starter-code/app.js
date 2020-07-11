@@ -104,9 +104,15 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { //eslint-disable-line
+var multArr = [2,3,4];
 
+function multiplyArray(multArr) { //eslint-disable-line
+    for(var i = 0;i < multArr.length; i++)
+    multiplyArray = (i*multArr[i]);
+var returnArray = [multiplyArray+'this is the output or multiplying the First number of the array to the same array elements'+multiplyArray];
+return returnArray;
 }
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
